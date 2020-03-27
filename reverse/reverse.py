@@ -47,6 +47,7 @@ class LinkedList:
 
     def reverse_list(self, node, prev=None):
         # You must use recursion for this solution
+        # Runtime is O(n)
         if node is None:
             self.head = prev
             return
